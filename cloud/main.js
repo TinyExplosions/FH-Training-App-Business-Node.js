@@ -1,6 +1,8 @@
 /**
  * main entry of cloud side
  */
+ console.log("PROCESS.ENV");
+console.log(JSON.stringify(process.env,null,2));
 
 var mortgage=require("./mortgage.js");
 var stock=require("./stock.js");
